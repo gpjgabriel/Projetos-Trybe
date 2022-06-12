@@ -13,14 +13,11 @@ Front-end:
 
 > Frontend
 ```bash
-cd src/
 npm install
 ``` 
 ## Executando aplicação
 
   ```
 * Para acessar a aplicação:
-
-  ```
     http://localhost:5500/
   ```
