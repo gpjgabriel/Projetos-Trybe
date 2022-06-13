@@ -1,4 +1,4 @@
-# My Awesome Project
+# Project Pixels Art
 
 # Contexto
 Projeto 3 - DOM, Eventos e WebStorage
