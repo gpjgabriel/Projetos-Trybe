@@ -1,0 +1,168 @@
+html body {
+  height: 100vh;
+}
+
+.section-header {
+  align-items: center;
+  background-color: rgb(194, 189, 189);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.header-div-button-profile, .header-h1-page-title, .header-div-button-search {
+  display: inline-block;
+}
+
+.header-div-button-profile button, .header-div-button-search button {
+  background-color: rgb(194, 189, 189);
+  border: none;
+  box-shadow: none;
+}
+
+.header-div-button-profile button img, .header-div-button-search button img {
+  max-width: 40px;
+}
+
+.header-div-button-search {
+  min-width: 40px;
+}
+
+.header-h1-page-title {
+  font-size: 24pt;
+  margin: 0.001px;
+}
+
+.header-div-search-bar {
+  margin: 10px;
+}
+
+.header-div-search-bar input {
+  border: 2px solid black;
+  outline: none;
+  width: 100%;
+}
+
+.section-filters-recipes {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 1px;
+}
+
+.button-filter {
+  background-color: rgb(212, 212, 212);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px;
+  margin: 10px 5px;
+  min-width: 90px;
+}
+
+.button-filter:active {
+  box-shadow: 1px 1px 1px;
+}
+
+.recipe-cards {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0.001px 5px 3px rgb(185, 185, 185);
+  font-size: 14pt;
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.recipe-logo {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100px;
+  width: 150px;
+}
+
+footer {
+  background-color: rgb(185, 185, 185);
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
+
+footer section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.001px 10px;
+}
+
+.recipe-card-div-img {
+  margin-bottom: 5px;
+}
+
+.meals {
+  align-items: center;
+  background: white;
+  color: #464646;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: sans-serif;
+
+  /* height: 100vh; */
+  justify-content: space-evenly;
+
+  /* width: 100%; */
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
