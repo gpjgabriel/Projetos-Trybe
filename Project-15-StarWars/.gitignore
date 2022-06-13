@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode repo settings
+.vscode
+
+README_trybe.md
+.github
+.trybe
+describe-only.png
+it-only.png
+only-all-green.png
+only-one-green.png
+projectIntro.gif
+req-1.png
+req-2.gif
+req-3.gif
+req-4.gif
+req-5.gif
+req-6.gif
+req-7.gif
+trybe.yml
