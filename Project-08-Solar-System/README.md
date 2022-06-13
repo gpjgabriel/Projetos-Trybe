@@ -1,7 +1,7 @@
 # Project Solar System
 
 # Contexto
-Components React
+Projeto 8 - Components React
 
 ## Técnologias usadas
 
