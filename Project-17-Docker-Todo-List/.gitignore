@@ -1,0 +1,9 @@
+node_modules
+**/node_modules
+trybe-todo-list-eval-*
+.vscode
+README_trybe.md
+.github
+.trybe
+trybe.yml
+
