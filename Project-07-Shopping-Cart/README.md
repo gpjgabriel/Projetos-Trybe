@@ -1,7 +1,7 @@
 # Project Shopping Cart
 
 # Contexto
-Callback, API e Test Assíncrono
+Projeto 7 - Callback, API e Test Assíncrono
 
 ## Técnologias usadas
 
