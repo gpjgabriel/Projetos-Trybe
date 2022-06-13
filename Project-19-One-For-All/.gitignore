@@ -1,0 +1,9 @@
+node_modules/
+
+# VSCode repo settings
+.vscode
+README_trybe.md
+.github
+.trybe
+trybe.yml
+
