@@ -1,4 +1,4 @@
-# My Awesome Project
+# Project Playground Functions
 
 # Contexto
 Projeto 2 - Introdução: Array, objetos e funções em JS
