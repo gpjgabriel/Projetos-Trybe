@@ -1,0 +1,22 @@
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  eslint:
+    runs-on: ubuntu-20.04
+    name: ESLint
+    steps:
+      - name: Fetch project repository
+        uses: actions/checkout@v2
+
+      - name: setup-node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      
+      - name: instalando as dependências
+        run: npm install
+
+      - name: executando o lint para verificar se a erros
+        run: npx eslint .

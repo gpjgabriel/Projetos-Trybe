@@ -1,0 +1,7 @@
+node_modules
+.vscode
+README_trybe.md
+.github
+.trybe
+.env
+trybe.yml
