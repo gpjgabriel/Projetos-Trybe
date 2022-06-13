@@ -1,0 +1,4 @@
+# VSCode repo settings
+.vscode
+node_modules
+README_trybe.md
